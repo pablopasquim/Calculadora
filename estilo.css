@@ -1,0 +1,125 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #c9d6ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+        }
+
+        .meio {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 60vh;    
+    padding: 40px;
+    background: linear-gradient(to bottom, #1E4363, #4A90E2);
+
+    }
+
+    .font1{
+        color: white;
+        font-family: 'Roboto', sans-serif; 
+        font-weight: bold;
+        
+    }
+
+    .num1{
+        border-radius: 10px;
+        font-weight: bold;
+    }
+
+        
+        .campos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+        }
+        
+        .operacao {
+    width: 40px;
+    padding: 1px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+        }
+        
+        .acoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+        }
+        
+        .num {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+        }
+        
+        button {
+    background-color: transparent;
+    color: #FFFFFF; 
+    font-size: 12px;
+    padding: 10px 20px;
+    border: 2px solid white; 
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; 
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+    margin-right: 10px;
+        }
+        
+        button:hover {
+    background-color: #1E4363;
+    color: #FFFFFF;
+    border-color: #1E4363;
+        }
+        
+        
+        
+        h1 {
+    text-align: center;
+    margin-bottom: 20px;
+        }
+        
+        .resultado {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    line-height: 100px;
+        }
+        
+        .visor {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: white; /* Alterado para branco */
+            color: black; /* Alterado para preto para garantir a legibilidade */
+            padding: 10px; /* Adicionado espaço ao redor do conteúdo para melhor visualização */
+        }
+        
+        
+        .historico {
+    margin-top: 20px;
+        }
+        
+        #listaHistorico {
+    list-style: none;
+    padding: 0;
+        }
+        
+        #listaHistorico li {
+    margin-bottom: 10px;
+        }
+        
